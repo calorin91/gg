@@ -1,6 +1,6 @@
 {
-  "name": "Zangoose (Vision + gold text)",
-  "description": "Zangoose structure with Vision colors + matching gold font color in chat",
+  "name": "Zangoose (Vision + gold messages)",
+  "description": "Zangoose structure with Vision colors + forced gold message text",
   "version": "1.4",
   "authors": [
     {
@@ -101,9 +101,9 @@
     "POLLS_NORMAL_IMAGE_BACKGROUND": ["#26233a"],
     "POLLS_VICTOR_FILL": ["#f6c177"],
     "TEXT_LINK": ["#f6c177"],
-    "TEXT_NORMAL": ["#f6c177"],
-    "TEXT_PRIMARY": ["#f6c177"],
-    "TEXT_SECONDARY": ["#A9966A"],
+    "TEXT_NORMAL": ["#f6c177", "#f6c177"],
+    "TEXT_PRIMARY": ["#f6c177", "#f6c177"],
+    "TEXT_SECONDARY": ["#A9966A", "#A9966A"],
     "KEYBOARD": ["#161519"],
     "PANEL_BG": ["#161519"]
   },
@@ -125,14 +125,14 @@
     "BRAND_660": "#161519",
     "BRAND_700": "#161519",
     "BRAND_730": "#0E0D10",
-    "NEUTRAL_100": "#161519",
-    "NEUTRAL_96": "#161519",
-    "NEUTRAL_90": "#161519",
-    "NEUTRAL_86": "#161519",
-    "NEUTRAL_83": "#161519",
+    "NEUTRAL_100": "#f6c177",
+    "NEUTRAL_96": "#f6c177",
+    "NEUTRAL_90": "#f6c177",
+    "NEUTRAL_86": "#f6c177",
+    "NEUTRAL_83": "#f6c177",
     "PRIMARY_100": "#f6c177",
     "PRIMARY_200": "#f6c177",
-    "PRIMARY_300": "#d8c28f",
+    "PRIMARY_300": "#f6c177",
     "PRIMARY_330": "#f6c177",
     "PRIMARY_360": "#f6c177",
     "PRIMARY_400": "#f6c177",
@@ -243,8 +243,8 @@
     "GUILD_BOOSTING_PURPLE": "#c4a7e7",
     "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": "#c4a7e7",
     "ROLE_DEFAULT": "#f6c177",
-    "WHITE_500": "#EFDFD7",
-    "WHITE_630": "#908caa"
+    "WHITE_500": "#f6c177",
+    "WHITE_630": "#f6c177"
   },
   "plus": {
     "version": 0,
